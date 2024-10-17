@@ -1,0 +1,22 @@
+{
+  "name": "mpx",
+  "version": "1.0.0",
+  "description": "A library for simplifying interaction between webview H5 and mini program native methods in Alipay Mini Program and WeChat Mini Program.",
+  "main": "dist/mpx.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": ["MPX", "mini program", "Alipay", "WeChat", "interaction"],
+  "author": "QiaoJianFeng",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@babel/core": "^7.25.8",
+    "@babel/preset-env": "^7.25.8",
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "rollup": "^2.79.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
